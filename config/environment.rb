@@ -8,5 +8,8 @@ DB = {
 DB[:conn].results_as_hash = true
 
 
+require_relative '../lib/live_record.rb'
 require_relative '../lib/tweet.rb'
+require_relative '../lib/user.rb'
+require_relative '../lib/zorp.rb'
 require_relative '../lib/tweets_app.rb'

@@ -1,0 +1,3 @@
+class Zorp < LiveRecord
+
+end
